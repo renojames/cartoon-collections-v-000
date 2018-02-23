@@ -18,7 +18,7 @@ def long_planeteer_calls(calls_long)
 end
 
 def find_the_cheese(ingredients)
-  ingredients.detect |i| do
+  ingredients.detect do |i|
     i == "cheddar" || i == "gouda" || i == "camembert"
   end
 end
